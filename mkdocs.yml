@@ -1,8 +1,9 @@
-site_name: Análisis de Datos Meteorológicos
+site_name: Weather
 site_description: Proyecto final Big Data — Análisis de datos meteorológicos
 site_author: Your Name
-repo_url: https://github.com/YOUR_USERNAME/proyecto-meteorologia
-repo_name: proyecto-meteorologia
+site_url: https://alvarodiez20.github.io/weather/
+repo_url: https://github.com/alvarodiez20/weather
+repo_name: weather
 
 theme:
   name: material
