@@ -16,7 +16,7 @@
 
 ## Documentation
 
-Full documentation at **[USER.github.io/proyecto-meteorologia](https://USER.github.io/proyecto-meteorologia/)**
+Full documentation at **[alvarodiez20.github.io/weather](https://alvarodiez20.github.io/weather/)**
 
 ## Installation
 

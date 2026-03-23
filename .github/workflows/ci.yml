@@ -13,6 +13,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check version bump
+        run: |
+          # Fetch all tags
+          git fetch --tags
+          VERSION=$(grep '^version' pyproject.toml | head -1 | sed 's/version = "\(.*\)"/\1/')
+          if git rev-parse "v$VERSION" >/dev/null 2>&1; then
+            echo "Error: Version v$VERSION already exists as a tag. Please bump the version in pyproject.toml."
+            exit 1
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v5
