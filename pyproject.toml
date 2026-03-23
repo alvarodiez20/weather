@@ -1,5 +1,5 @@
 [project]
-name = "proyecto-meteorologia"
+name = "weather"
 version = "0.0.1"
 description = "Análisis de datos meteorológicos — Big Data"
 readme = "README.md"
